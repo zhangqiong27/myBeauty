@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Beauty网页新品上线页面</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/public.css" />
+     	<link rel="stylesheet" href="css/bootstrap.css"/>
+     	<link rel="stylesheet" type="text/css" href="css/publiceHeader.css"/>
+     	<link rel="stylesheet" href="css/newGoods.css" />
+	</head>
+	
+	<body>
+		<!--引入公共头文件-->
+		<div id="publiceHeader"></div>
+		<section id="notice">
+			<div class="container">
+				<div class="notice_top">
+					<a href="#">Home</a><span>&raquo;</span><a href="#">精品好礼</a><span>&raquo;</span><a href="#">新品上市</a>
+				</div>
+				<div class="notice_bottom">
+					<h3>新品登场</h3>
+					<h6><img src="img/newGoods/category_618FeverCN_692_80.jpg"/></h6>
+				</div>
+			</div>
+		</section>
+		<section id="main">
+			<div class="container">
+				<div class="main_left">
+					<dl>
+						<dd>新品登场</dd>
+						<dt>护肤（42）</dt>
+						<dt>彩妆（18）</dt>
+						<dt>护发（42）</dt>
+						<dt>男士香水（42）</dt>
+						<dt>女士香水（22）</dt>
+						<dt>男士护肤（32）</dt>
+					</dl>
+					<ul>
+						<li><p>按品牌名称筛选：</p></li>
+						<li>
+							<pre class="pre-scrollable">内容可滚动<br>各大品牌<br>浏览更多<br>完美CP配对<br>6.18盛会到底各大品牌<br>浏览更多<br>搭配超值换购乐不停<br>6.18盛会到底<br>Textelement<br>6.18盛会到底<br>fontandpreserves<br>6.18盛会到底<br>linbreaks<br><br><br></pre>
+						</li>
+					</ul>
+				</div>
+				<div class="main_right">
+					<ul class="main_right_title_1">
+						<li>共300件新品登录</li>
+						<li>国际参考价格标准CNY</li>
+					</ul>
+					<ul class="main_right_title_2">
+						<li>新品登录</li>
+						<li>
+							<p class="hotBtn">根据畅销度分类</p>
+							<ul class="hotBtnContent">
+								<li>畅销度</li>
+								<li>折扣力度</li>
+								<li>品牌销量</li>
+								<li>字母A-Z</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="main_right_main" style="padding:30px 0;">
+						
+					</ul>
+					
+				</div>
+			</div>
+		</section>
+		
+		
+		<!--引入公共底部文件-->
+		<div id="publiceFooter"></div>
+	</body>
+</html>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/cookieTools.js" ></script>
+<script>
+	$(function(){
+		$("#publiceHeader").load("publiceHeader.html");
+		$("#publiceFooter").load("publiceFooter.html");
+		$(".main_right_title_2 li:nth-child(2)").hover(function(){
+			$(".hotBtnContent").css({display:"block"}
+			);
+		},function(){
+			$(".hotBtnContent").css("display","none");
+		});
+		
+		//获取产品列表信息
+		$.get("php/getGoodsList.php",function(data){
+			let arr=eval(data);
+			for(let i=0;i<arr.length;i++){
+				let ord=arr[i].goodsId;
+				let goodsName=arr[i].goodsName;//产品名h4
+				let goodsDetail=arr[i].goodsType;//产品详情h5
+				let mill=arr[i].goodsDesc;//毫升h6
+				let imgSrc=arr[i].goodsImg;//图片路径
+				let newPrice=Number(arr[i].beiyong1).toFixed(2);//现价
+				let oldPrice=Number(arr[i].beiyong2).toFixed(2);//原价
+				let mul=parseInt((1-newPrice/oldPrice).toFixed(2)*100);
+				let str="<li ord='"+ord+"'><dl><dt><h4>"+goodsName+"</h4><h5>"+goodsDetail+"</h5><h6>"+mill+"</h6></dt><dd class='dd_1'><img src='"+imgSrc+"'/><p>新品登场</p></dd><dd class='dd_2'><b>建议零售价</b><strong>￥"+oldPrice+"</strong><span><i>节省</i><br>"+mul+"%</span></dd><dd class='dd_3'><strong>￥"+newPrice+"</strong><span>全网低价重置</span></dd><dd class='dd_4'><b>加入<br>购物车</b></dd></dl></li>";
+				$(".main_right_main").append(str);
+			}
+		});
+		
+		$(".main_right_main").delegate("li","click",function(){
+			let currGoodsId=$(this).attr("ord");
+			saveCookie(currGoodsId,currGoodsId,1);//保存点击商品的产品ID，进入产品详情页面，显示对应商品
+			window.location.href="goodsInf.html";
+		})
+	});
+</script>
+

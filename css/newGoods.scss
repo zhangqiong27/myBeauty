@@ -1,0 +1,193 @@
+@charset "utf-8";
+.container{
+    width:1170px;
+    margin:0 auto;
+    padding:0 15px;
+}
+
+body{
+    padding-top:190px;
+}
+
+#notice{
+    .container{
+        .notice_top{
+            height:30px;
+            span{
+                margin:0 20px;
+            }
+        }
+        .notice_bottom{
+            display: flex;
+            justify-content: space-between;
+            h3{
+                font-weight: 700;
+                letter-spacing: 5px;
+            }
+        }
+    }
+}
+
+#main{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .main_left{
+            width:20%;
+            dl{
+                margin-bottom:40px;
+                dd{
+                    font:700 14px/28px "";
+                }
+                dt{
+                    font: 12px/20px "";
+                }   
+            }
+            ul{
+                li{
+                    p{
+                        font:700 14px/28px ""; 
+                    }
+                    pre{
+                        margin-top:0;
+                        padding:5px;
+                        font: 12px/24px "";
+                        height:230px;
+                    }
+                 }  
+            }
+           
+        }
+        .main_right{
+            padding:5px 15px;
+            width:80%;
+            .main_right_title_1,.main_right_title_2{
+                padding:10px 0;
+                display: flex;
+                justify-content: space-between;
+                li:first-child{
+                    font:700 16px/32px "";
+                    
+                }
+                li:last-child{
+                    color:#52246d;
+                    font:12px/32px "";
+                    position: relative;
+                    .hotBtn,.hotBtnContent{
+                        border:1px solid #52246d;
+                        padding:3px 10px;
+                        border-radius: 3px;
+                    }
+                    
+                    .hotBtnContent{
+                        width:116px;
+                        display: none;
+                        position: absolute;
+                        left:0;
+                        top:38px;
+                        background-color: #fff;
+                       
+                    }  
+                }   
+            }
+            ul:first-child{
+                border-bottom:3px solid #999;
+            }
+            .main_right_main{
+                li{
+                    height:146px;
+                    border-bottom: 2px solid #dfdfdf;
+                    margin:1px 0;
+                   dl{
+                       display: flex;
+                       justify-content: space-between;
+                       dt{
+                           padding-top:5px;
+                           width:368px;
+                           h4{
+                               font:700 18px/26px "";
+                           }
+                           h5{
+                               font:700 16px/24px "";
+                           }
+                           h6{
+                                font:700 14px/30px "";
+                           }
+                       } 
+                       .dd_1{
+                           text-align: center;
+                           width:147px;
+                           img{
+                               width:98px;
+                               height:98px;
+                           }
+                           p{
+                               text-align: center;
+                               background-color: #6dcff6;
+                               color:#fff;
+                               padding:5px 25px;
+                               border-radius: 3px;
+                           }
+                       }
+                        .dd_2{
+                           width:100px;
+                           padding-top:15px;
+                            strong{
+                               text-decoration: line-through; 
+                            }
+                            span{
+                                display:block;
+                                border-radius: 50%;
+                                width:50px;
+                                height:50px;
+                                font:700 22px/22px "";
+                                text-align: center;
+                                background: linear-gradient(to bottom, #623381 30%,#c62f7a 100%);
+                                color:#fff;
+                                transition: all 0.5s ease;
+                                i{
+                                   font:700 12px/24px "";  
+                                }
+                            }
+                            span:hover{
+                                box-shadow: 0 0 40px rgba(255,255,255,.5), inset 0 0 40px rgba(255,255,255,1);
+                                color:#600181;
+                            }
+                        }
+                        .dd_3{
+                            text-align: center;
+                            width:165px;
+                            height:146px;
+                            background:url(../img/newGoods/oitem_bg.gif) no-repeat;
+                            background-size: cover;
+                            padding-top: 35px;
+                            strong{
+                                font-size:39px;
+                                font-weight: 700;
+                                color:#fff;
+                            }
+                            span{
+                                color:#ffff00;
+                                font:700 12px/24px "";
+                            }
+                        }
+                        .dd_4{
+                            text-align: center;
+                            padding-top:40px;
+                            b{
+                                width: 70px;
+                                height: 45px;
+                                background-color: #00a69c;
+                                border-radius: 5px;
+                                padding: 5px 0px;
+                                color: #fff;
+                                display: block;
+                                box-shadow: 1px -3px 1px #7F96A9;
+                            }
+                        }
+                   }
+                }
+            }
+        }
+    }
+}

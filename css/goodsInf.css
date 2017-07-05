@@ -1,0 +1,194 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+body {
+  padding-top: 190px; }
+
+#main_top .container {
+  height: 110px; }
+  #main_top .container img {
+    width: 100%; }
+
+#main .container .main_right .main_right_top li {
+  margin: 10px 0; }
+  #main .container .main_right .main_right_top li h3 {
+    font: 700 26px/32px ""; }
+  #main .container .main_right .main_right_top li h4 {
+    font: 700 18px/32px ""; }
+#main .container .main_right .main_right_top .li_3 {
+  font: 12px/32px ""; }
+#main .container .main_right .main_right_top .li_4 div {
+  float: left;
+  width: 60px;
+  border: 1px solid #662c90;
+  border-radius: 3px;
+  text-align: center;
+  margin-right: 10px;
+  box-shadow: 1px 2px 0px #7F96A9; }
+  #main .container .main_right .main_right_top .li_4 div p {
+    color: #fff;
+    background-color: #662c90;
+    margin-bottom: 5px; }
+  #main .container .main_right .main_right_top .li_4 div strong {
+    display: block;
+    color: #fff;
+    background-color: #eb2a73;
+    margin-bottom: 5px; }
+  #main .container .main_right .main_right_top .li_4 div b {
+    font: 700 12px/20px ""; }
+#main .container .main_right .main_right_top .li_5 {
+  margin-top: 30px;
+  font: 700 30px/40px "";
+  font-weight: bold; }
+#main .container .main_right .main_right_top .li_6 {
+  color: #727373;
+  font: 12px/20px ""; }
+  #main .container .main_right .main_right_top .li_6 span {
+    text-decoration: line-through; }
+  #main .container .main_right .main_right_top .li_6 strong {
+    margin-left: 10px;
+    color: #2c2c2c;
+    font-weight: 700; }
+#main .container .main_right .main_right_top .li_7 select {
+  width: 58px;
+  height: 28px;
+  border: 1px solid #727373;
+  padding-left: 19px;
+  border-radius: 2px;
+  margin-right: 20px; }
+#main .container .main_right .main_right_top .li_7 input {
+  background-color: #00a69c;
+  width: 122px;
+  color: #fff;
+  border-radius: 2px;
+  text-align: center;
+  font: 700 14px/28px "";
+  box-shadow: 1px 2px 0px #7F96A9; }
+#main .container .main_right .main_right_bottom {
+  margin-top: 40px; }
+  #main .container .main_right .main_right_bottom .main_right_bottom_title {
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    border-bottom: 1px solid #642c90; }
+    #main .container .main_right .main_right_bottom .main_right_bottom_title strong {
+      background-color: #662d91;
+      width: 102px;
+      height: 25px;
+      color: #fff;
+      border-radius: 2px;
+      text-align: center;
+      font: 700 14px/24px "";
+      margin-top: 12px; }
+    #main .container .main_right .main_right_bottom .main_right_bottom_title p {
+      height: 44px; }
+      #main .container .main_right .main_right_bottom .main_right_bottom_title p a {
+        color: #662d91;
+        font: 16px/44px "";
+        padding: 12px 20px;
+        text-decoration: none; }
+  #main .container .main_right .main_right_bottom .main_right_bottom_content1 {
+    padding: 30px 10px; }
+    #main .container .main_right .main_right_bottom .main_right_bottom_content1 li {
+      list-style-type: disc;
+      font: 14px/24px ""; }
+  #main .container .main_right .main_right_bottom .main_right_bottom_content2 {
+    padding: 30px 10px;
+    display: none; }
+    #main .container .main_right .main_right_bottom .main_right_bottom_content2 li {
+      font: 700 16px/24px ""; }
+
+#otherInf {
+  margin-bottom: 40px; }
+  #otherInf .container .otherInf_title {
+    height: 40px;
+    border-bottom: 5px solid #000;
+    position: relative;
+    margin-bottom: 50px; }
+    #otherInf .container .otherInf_title h4 {
+      background-color: #fff;
+      position: absolute;
+      left: 45%;
+      top: 27px;
+      letter-spacing: 5px;
+      font: 700 22px/22px "";
+      padding: 0 20px; }
+  #otherInf .container #boxBig {
+    padding: 0 10px;
+    width: 1150px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative; }
+    #otherInf .container #boxBig #boxSmall {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 9999px;
+      list-style: none; }
+      #otherInf .container #boxBig #boxSmall li {
+        float: left; }
+        #otherInf .container #boxBig #boxSmall li dl {
+          width: 190px;
+          margin: 0 20px;
+          float: left; }
+          #otherInf .container #boxBig #boxSmall li dl dt img {
+            width: 190px;
+            height: 190px;
+            transition: 0.5s; }
+          #otherInf .container #boxBig #boxSmall li dl .inf1 strong {
+            font: 700 14px/26px ""; }
+          #otherInf .container #boxBig #boxSmall li dl .inf2 p {
+            font: 12px/24px ""; }
+          #otherInf .container #boxBig #boxSmall li dl .inf3 {
+            color: #727373;
+            font: 8px/20px ""; }
+            #otherInf .container #boxBig #boxSmall li dl .inf3 span {
+              text-decoration: line-through; }
+            #otherInf .container #boxBig #boxSmall li dl .inf3 strong {
+              color: #2c2c2c;
+              font-weight: 700; }
+          #otherInf .container #boxBig #boxSmall li dl .inf4 {
+            margin-top: 20px;
+            font: 700 25px/40px ""; }
+          #otherInf .container #boxBig #boxSmall li dl .inf5 {
+            padding-left: 10px; }
+            #otherInf .container #boxBig #boxSmall li dl .inf5 i {
+              display: block;
+              padding-left: 30px;
+              background: url("../img/goodsInf/low.png") no-repeat left;
+              color: #ec4582;
+              font: 700 12px/20px ""; }
+        #otherInf .container #boxBig #boxSmall li dl:hover img {
+          transform: scale(1.1); }
+    #otherInf .container #boxBig #prev, #otherInf .container #boxBig #next {
+      color: #662d91;
+      position: absolute;
+      display: block;
+      text-align: center;
+      font: 700 35px/35px "";
+      top: 20%;
+      text-decoration: none; }
+    #otherInf .container #boxBig #prev {
+      left: -2px; }
+    #otherInf .container #boxBig #next {
+      right: -2px; }
+    #otherInf .container #boxBig #cirBtn {
+      position: absolute;
+      bottom: 10px;
+      left: 45%; }
+    #otherInf .container #boxBig #cirBtn li {
+      float: left;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      border-radius: 50%;
+      list-style: none;
+      margin: 0 10px;
+      border: 1px solid #737373; }
+    #otherInf .container #boxBig #cirBtn li.active {
+      background-color: #662d91; }
+
+/*# sourceMappingURL=goodsInf.css.map */

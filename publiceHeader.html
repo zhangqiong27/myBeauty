@@ -1,0 +1,548 @@
+<!--<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/public.css" />
+     	<link rel="stylesheet" href="css/bootstrap.css"/>
+     	<link rel="stylesheet" type="text/css" href="css/publiceHeader.css"/>-->
+	      <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+	      <!--[if lt IE 9]>
+	      	 HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 
+	         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	      <![endif]-->
+	<!--</head>
+	<body>-->
+
+		<div class="navbar-fixed-top" id="publiceHeader">
+			<header >
+				<div class="container">
+					<div class="header_logo">
+						<a href="index.html"><img src="img/index/logo.png" /></a>
+					</div>
+					<div class="header_right">
+						<ul class="header_right_top">
+							<li class="dropdown" style="background:url('img/index/xia.png') no-repeat 100% 50%;padding-right:20px;">
+								<p class="dropdown-toggle" data-toggle="dropdown">￥CNY</p>
+								<div class="dropdown-menu " id="top-menu1" >
+							    	<p>Show all currencies</p>
+							    	<hr class="line">
+							    	<p>Chinese yuan $ CNY</p>
+							    </div>
+							</li>	    
+							<li>|</li>
+							<li class="dropdown" style="background:url('img/index/xia.png') no-repeat 100% 50%;padding-right:20px;">
+								<p class="dropdown-toggle" data-toggle="dropdown">China English</p>
+								<div class="dropdown-menu " id="top-menu2">
+									<p>简体</p>
+							    	<p>English</p>
+							    	<hr class="line">
+							    	<p>Show all countries</p>
+							    </div>
+							</li>
+							<li>|</li>
+							<li>订单查询</li>
+							<li>|</li>
+							<li>联系我们</li>
+						</ul>
+						<ul class="header_right_bottom">
+							<li style="background:url('img/index/sign_login.png') no-repeat center left;padding-left:40px;" data-toggle="modal" data-target="#login_singContent">注册或登录</li>
+							<li style="background:url('img/index/sign_login.png')no-repeat center left;padding-left:40px;">购物车</li>
+						</ul>
+					</div>
+					<div id="search">
+						<input  type="text" placeholder="搜索品牌/产品"/>
+					</div>
+				</div>
+			</header>
+			<section id="nav">
+				<ul id="menuFirst" class="container nav nav-tabs">
+					<li class="dropdown" id="nav-menu1-parent"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="icon_shopall"></span>根据品牌选购</a>
+						 <div class="dropdown-menu" id="nav-menu1" style="display:none">
+						 	<div id="nav-menu1-left">
+						 		<h6><input  type="text" placeholder="搜索品牌/产品"/></h6>
+						 		<ul>
+						 			<li class="clear">
+						 				<span class="code">A</span>
+						 				<pre class="pre-scrollable currCode " id="currCodeFirst">
+							 				<dl><dd>A</dd>
+							 					<dt><p>阿贝克隆比</p><p>Abercrombie</p></dt>
+												<dt><p>阿迪达斯</p><p>adidas</p></dt>
+												<dt><p>阿基迪尔阿甘油</p><p>Argan Oil</p></dt>
+												<dt><p>阿夸蒂斯特雷萨</p><p>Arezia</p></dt>
+												<dt><p>阿诺姿</p><p>Arezia</p></dt>
+												<dt><p>阿扎古瑞</p><p>Arezia</p></dt>
+												<dt><p>爱尔威罗马</p><p>Arezia</p></dt>
+												<dt><p>艾凡达</p><p>Arezia</p></dt>
+												<dt><p>艾米卡</p><p>Arezia</p></dt>
+												<dt><p>艾蜜塔</p><p>Arezia</p></dt>
+							 				</dl>
+						 				</pre>
+						 			</li>
+						 			<li class="clear">
+						 				<span class="code">B</span>
+						 				<pre class="pre-scrollable currCode">
+							 				<dl><dd>B</dd>
+							 					<dt><p>贝阿贝克隆比</p><p>Bbercrombie</p></dt>
+												<dt><p>贝阿迪达斯</p><p>Bdidas</p></dt>
+												<dt><p>贝阿基迪尔阿甘油</p><p>Brgan Oil</p></dt>
+												<dt><p>贝阿夸蒂斯特雷萨</p><p>Brezia</p></dt>
+												<dt><p>贝阿诺姿</p><p>Brezia</p></dt>
+												<dt><p>贝阿扎古瑞</p><p>Brezia</p></dt>
+												<dt><p>贝爱尔威罗马</p><p>Brezia</p></dt>
+												<dt><p>贝艾凡达</p><p>Brezia</p></dt>
+												<dt><p>贝艾米卡</p><p>Brezia</p></dt>
+												<dt><p>贝艾蜜塔</p><p>Brezia</p></dt>
+												<dt><p>贝艾凡达</p><p>Brezia</p></dt>
+												<dt><p>贝艾米卡</p><p>Brezia</p></dt>
+												<dt><p>贝艾蜜塔</p><p>Brezia</p></dt>
+							 				</dl>
+						 				</pre>
+						 			</li>
+						 			<li class="clear">
+						 				<span class="code">C</span>
+						 				<pre class="pre-scrollable currCode">
+							 				<dl><dd>C</dd>
+							 					<dt><p>赛阿贝克隆比</p><p>Cbercrombie</p></dt>
+												<dt><p>赛贝阿迪达斯</p><p>Cdidas</p></dt>
+												<dt><p>赛贝阿基迪尔阿甘油</p><p>Crgan Oil</p></dt>
+												<dt><p>赛贝阿夸蒂斯特雷萨</p><p>Crezia</p></dt>
+												<dt><p>赛贝阿诺姿</p><p>Crezia</p></dt>
+												<dt><p>赛贝阿扎古瑞</p><p>Crezia</p></dt>
+												<dt><p>赛贝爱尔威罗马</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾凡达</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾米卡</p><p>Crezia</p></dt>
+												<dt><p>赛赛贝艾蜜塔</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾凡达</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾米卡</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾蜜塔</p><p>Crezia</p></dt>
+							 				</dl>
+						 				</pre>
+						 			</li>
+						 			<li class="clear">
+						 				<span class="code">D</span>
+						 				<pre class="pre-scrollable currCode">
+							 				<dl><dd>D</dd>
+							 					<dt><p>赛阿贝克隆比</p><p>Cbercrombie</p></dt>
+							 					<dt><p>赛贝阿基迪尔阿甘油</p><p>Crgan Oil</p></dt>
+												<dt><p>赛贝阿夸蒂斯特雷萨</p><p>Crezia</p></dt>
+												<dt><p>赛贝阿诺姿</p><p>Crezia</p></dt>
+												<dt><p>赛贝阿扎古瑞</p><p>Crezia</p></dt>
+												<dt><p>赛贝爱尔威罗马</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾凡达</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾米卡</p><p>Crezia</p></dt>
+												<dt><p>赛赛贝艾蜜塔</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾凡达</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾米卡</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾蜜塔</p><p>Crezia</p></dt>
+							 				</dl>
+						 				</pre>
+						 			</li>
+						 			<li class="clear">
+						 				<span class="code"><d>E</d></span>
+						 				<pre class="pre-scrollable currCode">
+							 				<dl><dd>E</dd>
+							 					<dt><p>赛阿贝克隆比</p><p>Cbercrombie</p></dt>
+							 					<dt><p>赛阿贝克隆比</p><p>Cbercrombie</p></dt>
+							 					<dt><p>赛贝阿基迪尔阿甘油</p><p>Crgan Oil</p></dt>
+												<dt><p>赛贝阿夸蒂斯特雷萨</p><p>Crezia</p></dt>
+												<dt><p>赛贝阿诺姿</p><p>Crezia</p></dt>
+												<dt><p>赛贝阿扎古瑞</p><p>Crezia</p></dt>
+												<dt><p>赛贝爱尔威罗马</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾凡达</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾米卡</p><p>Crezia</p></dt>
+												<dt><p>赛赛贝艾蜜塔</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾凡达</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾米卡</p><p>Crezia</p></dt>
+												<dt><p>赛贝艾蜜塔</p><p>Crezia</p></dt>
+							 				</dl>
+						 				</pre>
+						 			</li>
+						 		</ul>
+						 	</div>
+						 	<dl id="nav-menu1-right">
+						 		<dd>热销品牌</dd>
+						 		<dt><p>阿玛尼</p><p>Armani</p></dt>
+								<dt><p>宝格丽</p><p>Bvlgari</p></dt>
+								<dt><p>碧欧泉</p><p>Biotherm</p></dt>
+								<dt><p>德美乐嘉</p><p>Dermalogica</p></dt>
+								<dt><p>迪奥</p><p>Dior</p></dt>
+								<dt><p>娇兰</p><p>Guerlain</p></dt>
+								<dt><p>娇韵诗</p><p>Clarins</p></dt>
+								<dt><p>卡尔文</p><p>melvincalvin</p></dt>
+								<dt><p>卡诗</p><p>Kerastase</p></dt>
+								<dt><p>科颜氏</p><p>Kishl's</p></dt>
+								<dt><p>资生堂</p><p>Shiseido</p></dt>
+								<dt><p>珀莱雅</p><p>Proya</p></dt>
+						 	</dl>
+						 </div>
+					</li>
+					<li><a href="#">女士护肤</a></li>
+					<li><a href="#">品牌彩妆</a></li>
+					<li><a href="#">美发护发</a></li>
+					<li><a href="#">女士香水</a></li>
+					<li><a href="#">男士护肤</a></li>
+					<li><a href="#">男士香水</a></li>
+					<li><a href="#">暖室香颂</a></li>
+					<li id="nav-menu2-parent" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span id="icon-specails"></span>促销活动</a>
+					    <div class="dropdown-menu" id="nav-menu2">
+					    	<div class="title">所有特惠活动</div>
+					    	<div class="nav-menu2_main">
+					    		<dl>
+						    		<dd><a href="#">促销活动</a></dd>
+							        <dt><a href="#">每日精选</a></dt>
+									<dt><a href="#">超值精选</a></dt>
+									<dt><a href="#">榜单热卖</a></dt>
+									<dt><a href="#">超值换购乐不停</a></dt>
+									<dt><a href="#">6.18盛会到底</a></dt>
+									<dt><a href="#">40个系列2.5折</a></dt>
+									<dt><a href="#">五十道光</a></dt>
+									<dt><a href="#">完美CP配对：搭配</a></dt>
+									<dt><a href="#">特卖专场</a></dt>
+									<dt><a href="#">六月榜单前40</a></dt>
+									<dt><a href="#">全城热惠</a></dt>
+									<dt><a href="#">浏览更多</a></dt>
+					    		</dl>
+					    		<dl>
+						    		<dd><a href="#">促销活动</a></dd>
+							        <dt><a href="#">每日精选</a></dt>
+									<dt><a href="#">超值精选</a></dt>
+									<dt><a href="#">榜单热卖</a></dt>
+									<dt><a href="#">超值换购乐不停</a></dt>
+									<dt><a href="#">6.18盛会到底</a></dt>
+									<dt><a href="#">40个系列2.5折</a></dt>
+									<dt><a href="#">五十道光</a></dt>
+									<dt><a href="#">完美CP配对：搭配</a></dt>
+									<dt><a href="#">特卖专场</a></dt>
+									<dt><a href="#">六月榜单前40</a></dt>
+									<dt><a href="#">全城热惠</a></dt>
+									<dt><a href="#">浏览更多</a></dt>
+					    		</dl>
+					    		<dl>
+						    		<dd><a href="#">促销活动</a></dd>
+							        <dt><a href="#">每日精选</a></dt>
+									<dt><a href="#">超值精选</a></dt>
+									<dt><a href="#">榜单热卖</a></dt>
+									<dt><a href="#">超值换购乐不停</a></dt>
+									<dt><a href="#">6.18盛会到底</a></dt>
+									<dt><a href="#">40个系列2.5折</a></dt>
+									<dt><a href="#">五十道光</a></dt>
+									<dt><a href="#">完美CP配对：搭配</a></dt>
+									<dt><a href="#">特卖专场</a></dt>
+									<dt><a href="#">六月榜单前40</a></dt>
+									<dt><a href="#">全城热惠</a></dt>
+									<dt><a href="#">浏览更多</a></dt>
+					    		</dl>
+					    		<dl>
+						    		<dd><a href="#">促销活动</a></dd>
+							        <dt><a href="#">每日精选</a></dt>
+									<dt><a href="#">超值精选</a></dt>
+									<dt><a href="#">榜单热卖</a></dt>
+									<dt><a href="#">超值换购乐不停</a></dt>
+									<dt><a href="#">6.18盛会到底</a></dt>
+									<dt><a href="#">40个系列2.5折</a></dt>
+									<dt><a href="#">五十道光</a></dt>
+									<dt><a href="#">完美CP配对：搭配</a></dt>
+									<dt><a href="#">特卖专场</a></dt>
+									<dt><a href="#">六月榜单前40</a></dt>
+									<dt><a href="#">全城热惠</a></dt>
+									<dt><a href="#">浏览更多</a></dt>
+					    		</dl>
+					    		<dl class="nav-menu2_main_right">
+					    			<dt><a href="#">超值精选</a></dt>
+					    			<dt><img src="img/index/gift2.jpg"/></dt>
+					    			<dt><a href="#">榜单热卖</a></dt>
+					    			<dt><img src="img/index/gift1.jpg"/></dt>
+					    		</dl>
+					    	</div>
+					    	
+					    </div>
+					</li>
+					<li><a href="newGoods.html"><span id="icon-new"></span>新品上线</a></li>
+				</ul>
+			</section>
+			<div id="instruction" class="container">
+				<div class="pull-right">
+					<a id="freeWorld" href="#" data-toggle="modal" data-target="#freeWorldContent">全球包邮</a>
+					<a id="shippingMin" href="#" data-toggle="modal" data-target="#shippingMinContent">适用条件</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade" id="freeWorldContent">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true">×</span><span class="sr-only">Close</span>
+						</button>
+						<h4 class="modal-title">全球包邮</h4>
+					</div>
+					<div class="modal-body">
+						<p>
+							只需购满US$30即可享受全球包邮。我们悉心打包产品，以确保产品安然无恙送达您手中。由于部分头发护理产品重量较重，因此需要特殊付运安排。<br>
+							草莓网致力于为您提供最优质的购物体验。最近，我们更全线调整下降产品价格！查看促销活动关注最新促销信息。
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="modal fade" id="shippingMinContent">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true">×</span><span class="sr-only">Close</span>
+						</button>
+						<h4 class="modal-title">适用条件</h4>
+					</div>
+					<div class="modal-body">
+						<p>
+							只需购满US$30即可享受全球包邮。我们悉心打包产品，以确保产品安然无恙送达您手中。由于部分头发护理产品重量较重，因此需要特殊付运安排。<br>
+							草莓网致力于为您提供最优质的购物体验。最近，我们更全线调整下降产品价格！查看促销活动关注最新促销信息。
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--登录注册弹出框-->
+		<div class="modal fade" id="login_singContent">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true">×</span><span class="sr-only">Close</span>
+						</button>
+						<h4><span class="loginBtn">登录</span><span class="singBtn">注册</span></h4>
+					</div>
+					<div class="modal-body loginContent">
+						<form action="" method="post">
+							<input class="userName1" name="userName" type="text" placeholder="用户名" required="required"/><br>
+							<p class="userNameMsg userNameMsg1"></p>
+							<input class="userPass" name="userPass" type="password" placeholder="密码" required="required"/><br>
+							<p class="userPassMsg"></p>
+							<input id="loginBtn" class="subBtn" type="button" value="登录"/><br>
+							<input class="checkBtn" type="checkbox">保持登录状态
+						</form>	
+						<div class="loginContent_bottom">
+							<b>立即登录</b>
+							<b>&radic;一键定制<br>&radic;订单查询<br>&radic;独家优惠</b>
+							<b>&rang;</b>
+						</div>
+					</div>
+					<div class="modal-body singContent">
+						<form action="php/sing.php" method="post">
+							<input class="userName" name="userName" type="text" placeholder="用户名" required="required"/><br>
+							<p class="userNameMsg"></p>
+							<input class="userEmail userEmail1"  name="userEmail" type="text" placeholder="邮箱" required="required"/><br>
+							<p class="userEmailMsg"></p>
+							<input class="userPhone" name="userPhone" type="text" placeholder="手机号码" required="required"/><br>
+							<p class="userPhoneMsg"></p>
+							<input class="userPass1" name="userPass1" type="text" placeholder="密码" required="required"/><br>
+							<p class="userPassMsg1"></p>
+							<input class="userPassRe" type="text" placeholder="请再次输入密码" required="required"/><br>
+							<p class="userPassReMsg"></p>
+							<input class="checkBtn_2" type="checkbox">我同意隐私协议及服务条约
+							<input id="singBtn" class="subBtn" type="button" value="注册"/><br>							
+						</form>
+						<p>
+							欢迎来到香港草莓网 StrawberryNET.Com<br>
+							StrawberryNET.Com 及其附属机构按照以下条款的规定，为你提供服务。当你浏览草莓网或在其网上购物, 代表你已接受这些条款。请细心阅读。条款说明我们对双方的期望。浏览草莓网任何网页, 代表使用者已同意接受法律约束及遵守以下列明之条款。
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+<!--</body>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/cookieTools.js" ></script>-->
+<script>
+	"use strict"
+	
+	$(function(){
+		$("#currCodeFirst").css("display","block");
+		$(".code").click(function(){
+			$(".code").css({backgroundColor:"#fff",color:"#521b76"});
+			$(this).css({backgroundColor:"#521b76",color:"#fff"});
+			$(".currCode").css("display","none");
+			$(this).next(".currCode").css("display","block");
+		});
+		$("#nav-menu1-parent").hover(function(){
+			$("#nav-menu1").css("display","flex");
+		},function(){
+			$("#nav-menu1").css("display","none");
+		});
+		$("#nav-menu2-parent").hover(function(){
+			$("#nav-menu2").css("display","block");
+		},function(){
+			$("#nav-menu2").css("display","none");
+		});
+		
+		//鼠标点击注册按钮，对应显示注册页面
+		$(".singBtn").click(function(){
+			$(".loginContent").css("display","none");
+			$(".singContent").css("display","block");
+			//验证用户名
+			let isTrue=false;
+			$(".userName").blur(function(){
+				let pattern1 = new RegExp("^[a-z]([a-z0-9])*[-_]?([a-z0-9]+)$","i");
+				let $userName=$(this).val();			
+				if($userName.length>=8 && pattern1.test($userName)){
+					$.get("php/singCheckUserName.php",{userName:$userName},function(data){
+						if(data=="1"){
+							$(".userNameMsg").html("该用户名可以使用");
+							$(".userNameMsg").css({color:"green"});
+							isTrue=true;
+						}else if(data=="0"){
+							$(".userNameMsg").html("该用户名已经注册，请重新选择");	
+							$(".userNameMsg").css({color:"red"});
+						}
+					},"text");
+				}else{
+					$(".userNameMsg").html("用户名至少需要8个字符，必须以字母开头，以字母或数字结尾，可以有-和_");
+					$(".userNameMsg").css({color:"red"});
+				}
+			});
+			
+			//验证邮箱
+			$(".userEmail").blur(function(){
+				let pattern2 = new RegExp("^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$","i");
+				let $userEmail=$(this).val();
+				if(pattern2.test($userEmail)){
+					$(".userEmailMsg").html("输入成功");
+					$(".userEmailMsg").css({color:"green"});
+					isTrue=true;	
+				}else{
+					$(".userEmailMsg").html("请输入正确邮箱号");
+					$(".userEmailMsg").css({color:"red"});
+				}
+			});
+
+			//验证手机号
+			$(".userPhone").blur(function(){
+				let pattern3 =/^1\d{10}$/ig;
+				let $userPhone=$(this).val();
+				if(pattern3.test($userPhone)){
+					$(".userPhoneMsg").html("输入成功");
+					$(".userPhoneMsg").css({color:"green"});
+					isTrue=true;	
+				}else{
+					$(".userPhoneMsg").html("请输入正确手机号码");
+					$(".userPhoneMsg").css({color:"red"});
+				}
+			});
+			
+			//验证密码及再次输入密码
+			$(".userPass1").blur(function(){
+				let pattern4=/^\w{8,20}$/;
+				let $userPass=$(this).val();
+				if(pattern4.test($userPass)){
+					$(".userPassMsg1").html("输入成功");
+					$(".userPassMsg1").css({color:"green"});
+					isTrue=true;	
+				}else{
+					$(".userPassMsg1").html("请输入8-20位密码");
+					$(".userPassMsg1").css({color:"red"});
+				}
+			});	
+			$(".userPassRe").blur(function(){
+				let pattern5=/^\w{8,20}$/;
+				let $userPass=$(".userPass1").val();
+			    let $userPassRe=$(this).val();
+				if(pattern5.test($userPassRe) && $userPass==$userPassRe){
+						$(".userPassReMsg").html("输入成功");
+						$(".userPassReMsg").css({color:"green"});
+						isTrue=true;	
+					}else{
+						$(".userPassReMsg").html("两次密码不一致，请重新输入");
+						$(".userPassReMsg").css({color:"red"});
+					}
+				});
+			
+			$("form").on("click","#singBtn", function(){
+				if(isTrue==true){	
+					$.post("php/sing.php",{userName:$(".userName").val(),userEmail:$(".userEmail1").val(),userPhone:$(".userPhone").val(),userPass1:$(".userPass1").val()},function(data){
+						if(data=="true"){
+							$(".userName").val("");
+							$(".userEmail").val("");
+							$(".userPhone").val("");
+							$(".userPass1").val("");
+							$(".userPassRe").val("");
+							alert("亲，恭喜您注册成功，请进入登录页面");
+							
+						}else{
+							alert("注册失败");
+						}
+					});
+				}
+			});
+		});	
+		//登录界面
+		$(".loginBtn").click(function(){
+			$(".loginContent").css("display","block");
+			$(".singContent").css("display","none");
+		});
+		
+		//鼠标点击登录最下面，跳转注册页面
+		$(".loginContent_bottom").click(function(){
+			$(".loginContent").css("display","none");
+			$(".singContent").css("display","block");
+		});
+		let isFalse=false;
+			//验证用户名
+			$(".userName1").blur(function(){
+				$.get("php/singCheckUserName.php",{userName:$(".userName1").val()},function(data){
+					if(data=="1"){
+						$(".userNameMsg1").html("该用户名不存在，请注册");
+						$(".userNameMsg1").css({color:"red"});
+					}else if(data=="0"){
+						$(".userNameMsg1").html("");
+						isFalse=true;
+					}
+				},"text");
+			});
+			
+			$("form").on("click","#loginBtn", function(){
+				if(isFalse==true){	
+					$.post("php/loginCheckUser.php",{userName:$(".userName1").val(),userPass:$(".userPass").val()},function(data){
+						if(data=="1"){
+							$(".userPassMsg").html("密码错误，登录失败");
+							$(".userPassMsg").css({color:"red"});
+						}else if(data=="0"){
+							saveCookie("userName",$(".userName1").val(),7);//登陆成功,跳到主页,存cookie	
+							location.reload();
+						}
+					});
+				}
+			});	
+			//改变页面显示用户信息，及退出删除cookie
+			let userName=getCookie("userName");
+			if(userName!=""){
+				$(".header_right_bottom li:first-child").remove();
+				$(".header_right_bottom").prepend("<li>欢迎用户："+userName+"<input id='tuichu' type='button' value='退出' style='margin-left:10px;background:none;'/></li>");
+			}
+			
+			$("#tuichu").click(function(){
+				$(".header_right_bottom li:first-child").remove();
+				$(".header_right_bottom").prepend("<li style='background:url(img/index/sign_login.png) no-repeat center left;padding-left:40px;' data-toggle='modal' data-target='#login_singContent'>注册或登录</li>");
+				removeCookie("userName");
+				location.reload();
+			});
+	
+});	
+</script>
+</html>

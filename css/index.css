@@ -1,0 +1,153 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+body {
+  padding-top: 190px; }
+
+#banner {
+  background-color: #fff; }
+  #banner .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #623381 30%, #c62f7a 100%); }
+    #banner .container .carousel-indicators {
+      bottom: -22px; }
+
+#main .container .main_1 .main_1_title, #main .container .main_1 .main_2_title, #main .container .main_1 .main_3_title, #main .container .main_2 .main_1_title, #main .container .main_2 .main_2_title, #main .container .main_2 .main_3_title, #main .container .main_3 .main_1_title, #main .container .main_3 .main_2_title, #main .container .main_3 .main_3_title, #main .container .main_4 .main_1_title, #main .container .main_4 .main_2_title, #main .container .main_4 .main_3_title, #main .container .main_5 .main_1_title, #main .container .main_5 .main_2_title, #main .container .main_5 .main_3_title {
+  width: 100%;
+  height: 60px;
+  margin-top: 40px;
+  position: relative;
+  text-align: center; }
+  #main .container .main_1 .main_1_title .xian, #main .container .main_1 .main_2_title .xian, #main .container .main_1 .main_3_title .xian, #main .container .main_2 .main_1_title .xian, #main .container .main_2 .main_2_title .xian, #main .container .main_2 .main_3_title .xian, #main .container .main_3 .main_1_title .xian, #main .container .main_3 .main_2_title .xian, #main .container .main_3 .main_3_title .xian, #main .container .main_4 .main_1_title .xian, #main .container .main_4 .main_2_title .xian, #main .container .main_4 .main_3_title .xian, #main .container .main_5 .main_1_title .xian, #main .container .main_5 .main_2_title .xian, #main .container .main_5 .main_3_title .xian {
+    height: 3px;
+    border: none;
+    border-top: 3px solid #000; }
+  #main .container .main_1 .main_1_title p, #main .container .main_1 .main_2_title p, #main .container .main_1 .main_3_title p, #main .container .main_2 .main_1_title p, #main .container .main_2 .main_2_title p, #main .container .main_2 .main_3_title p, #main .container .main_3 .main_1_title p, #main .container .main_3 .main_2_title p, #main .container .main_3 .main_3_title p, #main .container .main_4 .main_1_title p, #main .container .main_4 .main_2_title p, #main .container .main_4 .main_3_title p, #main .container .main_5 .main_1_title p, #main .container .main_5 .main_2_title p, #main .container .main_5 .main_3_title p {
+    position: absolute;
+    top: -20px;
+    left: 39%;
+    background-color: #fff;
+    width: 280px;
+    letter-spacing: 8px;
+    font: 800 16px/24px ""; }
+    #main .container .main_1 .main_1_title p span, #main .container .main_1 .main_2_title p span, #main .container .main_1 .main_3_title p span, #main .container .main_2 .main_1_title p span, #main .container .main_2 .main_2_title p span, #main .container .main_2 .main_3_title p span, #main .container .main_3 .main_1_title p span, #main .container .main_3 .main_2_title p span, #main .container .main_3 .main_3_title p span, #main .container .main_4 .main_1_title p span, #main .container .main_4 .main_2_title p span, #main .container .main_4 .main_3_title p span, #main .container .main_5 .main_1_title p span, #main .container .main_5 .main_2_title p span, #main .container .main_5 .main_3_title p span {
+      color: hotpink; }
+#main .container .main_1 .main_2_title .xian, #main .container .main_2 .main_2_title .xian, #main .container .main_3 .main_2_title .xian, #main .container .main_4 .main_2_title .xian, #main .container .main_5 .main_2_title .xian {
+  border-top: 3px solid #65318f; }
+#main .container .main_1 .main_2_title p, #main .container .main_2 .main_2_title p, #main .container .main_3 .main_2_title p, #main .container .main_4 .main_2_title p, #main .container .main_5 .main_2_title p {
+  top: -12px;
+  color: #65318f; }
+#main .container .main_1 .main_3_title .xian, #main .container .main_2 .main_3_title .xian, #main .container .main_3 .main_3_title .xian, #main .container .main_4 .main_3_title .xian, #main .container .main_5 .main_3_title .xian {
+  border-top: 3px solid #000; }
+#main .container .main_1 .main_3_title p, #main .container .main_2 .main_3_title p, #main .container .main_3 .main_3_title p, #main .container .main_4 .main_3_title p, #main .container .main_5 .main_3_title p {
+  top: -12px;
+  left: 44%;
+  color: #000;
+  width: 150px; }
+#main .container .main_1 .main_1_main, #main .container .main_1 .main_2_main, #main .container .main_1 .main_3_main, #main .container .main_1 .main_4_main, #main .container .main_1 .main_5_main, #main .container .main_2 .main_1_main, #main .container .main_2 .main_2_main, #main .container .main_2 .main_3_main, #main .container .main_2 .main_4_main, #main .container .main_2 .main_5_main, #main .container .main_3 .main_1_main, #main .container .main_3 .main_2_main, #main .container .main_3 .main_3_main, #main .container .main_3 .main_4_main, #main .container .main_3 .main_5_main, #main .container .main_4 .main_1_main, #main .container .main_4 .main_2_main, #main .container .main_4 .main_3_main, #main .container .main_4 .main_4_main, #main .container .main_4 .main_5_main, #main .container .main_5 .main_1_main, #main .container .main_5 .main_2_main, #main .container .main_5 .main_3_main, #main .container .main_5 .main_4_main, #main .container .main_5 .main_5_main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  #main .container .main_1 .main_1_main li, #main .container .main_1 .main_2_main li, #main .container .main_1 .main_3_main li, #main .container .main_1 .main_4_main li, #main .container .main_1 .main_5_main li, #main .container .main_2 .main_1_main li, #main .container .main_2 .main_2_main li, #main .container .main_2 .main_3_main li, #main .container .main_2 .main_4_main li, #main .container .main_2 .main_5_main li, #main .container .main_3 .main_1_main li, #main .container .main_3 .main_2_main li, #main .container .main_3 .main_3_main li, #main .container .main_3 .main_4_main li, #main .container .main_3 .main_5_main li, #main .container .main_4 .main_1_main li, #main .container .main_4 .main_2_main li, #main .container .main_4 .main_3_main li, #main .container .main_4 .main_4_main li, #main .container .main_4 .main_5_main li, #main .container .main_5 .main_1_main li, #main .container .main_5 .main_2_main li, #main .container .main_5 .main_3_main li, #main .container .main_5 .main_4_main li, #main .container .main_5 .main_5_main li {
+    width: 280px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px 0; }
+    #main .container .main_1 .main_1_main li dt, #main .container .main_1 .main_2_main li dt, #main .container .main_1 .main_3_main li dt, #main .container .main_1 .main_4_main li dt, #main .container .main_1 .main_5_main li dt, #main .container .main_2 .main_1_main li dt, #main .container .main_2 .main_2_main li dt, #main .container .main_2 .main_3_main li dt, #main .container .main_2 .main_4_main li dt, #main .container .main_2 .main_5_main li dt, #main .container .main_3 .main_1_main li dt, #main .container .main_3 .main_2_main li dt, #main .container .main_3 .main_3_main li dt, #main .container .main_3 .main_4_main li dt, #main .container .main_3 .main_5_main li dt, #main .container .main_4 .main_1_main li dt, #main .container .main_4 .main_2_main li dt, #main .container .main_4 .main_3_main li dt, #main .container .main_4 .main_4_main li dt, #main .container .main_4 .main_5_main li dt, #main .container .main_5 .main_1_main li dt, #main .container .main_5 .main_2_main li dt, #main .container .main_5 .main_3_main li dt, #main .container .main_5 .main_4_main li dt, #main .container .main_5 .main_5_main li dt {
+      width: 230px;
+      height: 230px;
+      position: relative; }
+      #main .container .main_1 .main_1_main li dt img, #main .container .main_1 .main_2_main li dt img, #main .container .main_1 .main_3_main li dt img, #main .container .main_1 .main_4_main li dt img, #main .container .main_1 .main_5_main li dt img, #main .container .main_2 .main_1_main li dt img, #main .container .main_2 .main_2_main li dt img, #main .container .main_2 .main_3_main li dt img, #main .container .main_2 .main_4_main li dt img, #main .container .main_2 .main_5_main li dt img, #main .container .main_3 .main_1_main li dt img, #main .container .main_3 .main_2_main li dt img, #main .container .main_3 .main_3_main li dt img, #main .container .main_3 .main_4_main li dt img, #main .container .main_3 .main_5_main li dt img, #main .container .main_4 .main_1_main li dt img, #main .container .main_4 .main_2_main li dt img, #main .container .main_4 .main_3_main li dt img, #main .container .main_4 .main_4_main li dt img, #main .container .main_4 .main_5_main li dt img, #main .container .main_5 .main_1_main li dt img, #main .container .main_5 .main_2_main li dt img, #main .container .main_5 .main_3_main li dt img, #main .container .main_5 .main_4_main li dt img, #main .container .main_5 .main_5_main li dt img {
+        width: 100%;
+        margin: 0 auto;
+        transition: 1s; }
+      #main .container .main_1 .main_1_main li dt .halfDiscount, #main .container .main_1 .main_2_main li dt .halfDiscount, #main .container .main_1 .main_3_main li dt .halfDiscount, #main .container .main_1 .main_4_main li dt .halfDiscount, #main .container .main_1 .main_5_main li dt .halfDiscount, #main .container .main_2 .main_1_main li dt .halfDiscount, #main .container .main_2 .main_2_main li dt .halfDiscount, #main .container .main_2 .main_3_main li dt .halfDiscount, #main .container .main_2 .main_4_main li dt .halfDiscount, #main .container .main_2 .main_5_main li dt .halfDiscount, #main .container .main_3 .main_1_main li dt .halfDiscount, #main .container .main_3 .main_2_main li dt .halfDiscount, #main .container .main_3 .main_3_main li dt .halfDiscount, #main .container .main_3 .main_4_main li dt .halfDiscount, #main .container .main_3 .main_5_main li dt .halfDiscount, #main .container .main_4 .main_1_main li dt .halfDiscount, #main .container .main_4 .main_2_main li dt .halfDiscount, #main .container .main_4 .main_3_main li dt .halfDiscount, #main .container .main_4 .main_4_main li dt .halfDiscount, #main .container .main_4 .main_5_main li dt .halfDiscount, #main .container .main_5 .main_1_main li dt .halfDiscount, #main .container .main_5 .main_2_main li dt .halfDiscount, #main .container .main_5 .main_3_main li dt .halfDiscount, #main .container .main_5 .main_4_main li dt .halfDiscount, #main .container .main_5 .main_5_main li dt .halfDiscount {
+        position: absolute;
+        bottom: 0;
+        left: 28%;
+        background-color: #f49ac1;
+        opacity: 0.8;
+        color: #fff;
+        padding: 8px 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        transition: all .5s ease;
+        display: none; }
+    #main .container .main_1 .main_1_main li dd, #main .container .main_1 .main_2_main li dd, #main .container .main_1 .main_3_main li dd, #main .container .main_1 .main_4_main li dd, #main .container .main_1 .main_5_main li dd, #main .container .main_2 .main_1_main li dd, #main .container .main_2 .main_2_main li dd, #main .container .main_2 .main_3_main li dd, #main .container .main_2 .main_4_main li dd, #main .container .main_2 .main_5_main li dd, #main .container .main_3 .main_1_main li dd, #main .container .main_3 .main_2_main li dd, #main .container .main_3 .main_3_main li dd, #main .container .main_3 .main_4_main li dd, #main .container .main_3 .main_5_main li dd, #main .container .main_4 .main_1_main li dd, #main .container .main_4 .main_2_main li dd, #main .container .main_4 .main_3_main li dd, #main .container .main_4 .main_4_main li dd, #main .container .main_4 .main_5_main li dd, #main .container .main_5 .main_1_main li dd, #main .container .main_5 .main_2_main li dd, #main .container .main_5 .main_3_main li dd, #main .container .main_5 .main_4_main li dd, #main .container .main_5 .main_5_main li dd {
+      margin: 5px 0; }
+      #main .container .main_1 .main_1_main li dd .strong_1, #main .container .main_1 .main_2_main li dd .strong_1, #main .container .main_1 .main_3_main li dd .strong_1, #main .container .main_1 .main_4_main li dd .strong_1, #main .container .main_1 .main_5_main li dd .strong_1, #main .container .main_2 .main_1_main li dd .strong_1, #main .container .main_2 .main_2_main li dd .strong_1, #main .container .main_2 .main_3_main li dd .strong_1, #main .container .main_2 .main_4_main li dd .strong_1, #main .container .main_2 .main_5_main li dd .strong_1, #main .container .main_3 .main_1_main li dd .strong_1, #main .container .main_3 .main_2_main li dd .strong_1, #main .container .main_3 .main_3_main li dd .strong_1, #main .container .main_3 .main_4_main li dd .strong_1, #main .container .main_3 .main_5_main li dd .strong_1, #main .container .main_4 .main_1_main li dd .strong_1, #main .container .main_4 .main_2_main li dd .strong_1, #main .container .main_4 .main_3_main li dd .strong_1, #main .container .main_4 .main_4_main li dd .strong_1, #main .container .main_4 .main_5_main li dd .strong_1, #main .container .main_5 .main_1_main li dd .strong_1, #main .container .main_5 .main_2_main li dd .strong_1, #main .container .main_5 .main_3_main li dd .strong_1, #main .container .main_5 .main_4_main li dd .strong_1, #main .container .main_5 .main_5_main li dd .strong_1 {
+        font: 16px; }
+      #main .container .main_1 .main_1_main li dd .strong_2, #main .container .main_1 .main_2_main li dd .strong_2, #main .container .main_1 .main_3_main li dd .strong_2, #main .container .main_1 .main_4_main li dd .strong_2, #main .container .main_1 .main_5_main li dd .strong_2, #main .container .main_2 .main_1_main li dd .strong_2, #main .container .main_2 .main_2_main li dd .strong_2, #main .container .main_2 .main_3_main li dd .strong_2, #main .container .main_2 .main_4_main li dd .strong_2, #main .container .main_2 .main_5_main li dd .strong_2, #main .container .main_3 .main_1_main li dd .strong_2, #main .container .main_3 .main_2_main li dd .strong_2, #main .container .main_3 .main_3_main li dd .strong_2, #main .container .main_3 .main_4_main li dd .strong_2, #main .container .main_3 .main_5_main li dd .strong_2, #main .container .main_4 .main_1_main li dd .strong_2, #main .container .main_4 .main_2_main li dd .strong_2, #main .container .main_4 .main_3_main li dd .strong_2, #main .container .main_4 .main_4_main li dd .strong_2, #main .container .main_4 .main_5_main li dd .strong_2, #main .container .main_5 .main_1_main li dd .strong_2, #main .container .main_5 .main_2_main li dd .strong_2, #main .container .main_5 .main_3_main li dd .strong_2, #main .container .main_5 .main_4_main li dd .strong_2, #main .container .main_5 .main_5_main li dd .strong_2 {
+        font: 800 12px/20px ""; }
+      #main .container .main_1 .main_1_main li dd .strong_3, #main .container .main_1 .main_2_main li dd .strong_3, #main .container .main_1 .main_3_main li dd .strong_3, #main .container .main_1 .main_4_main li dd .strong_3, #main .container .main_1 .main_5_main li dd .strong_3, #main .container .main_2 .main_1_main li dd .strong_3, #main .container .main_2 .main_2_main li dd .strong_3, #main .container .main_2 .main_3_main li dd .strong_3, #main .container .main_2 .main_4_main li dd .strong_3, #main .container .main_2 .main_5_main li dd .strong_3, #main .container .main_3 .main_1_main li dd .strong_3, #main .container .main_3 .main_2_main li dd .strong_3, #main .container .main_3 .main_3_main li dd .strong_3, #main .container .main_3 .main_4_main li dd .strong_3, #main .container .main_3 .main_5_main li dd .strong_3, #main .container .main_4 .main_1_main li dd .strong_3, #main .container .main_4 .main_2_main li dd .strong_3, #main .container .main_4 .main_3_main li dd .strong_3, #main .container .main_4 .main_4_main li dd .strong_3, #main .container .main_4 .main_5_main li dd .strong_3, #main .container .main_5 .main_1_main li dd .strong_3, #main .container .main_5 .main_2_main li dd .strong_3, #main .container .main_5 .main_3_main li dd .strong_3, #main .container .main_5 .main_4_main li dd .strong_3, #main .container .main_5 .main_5_main li dd .strong_3 {
+        text-decoration: line-through;
+        margin: 0 8px;
+        color: darkgoldenrod; }
+      #main .container .main_1 .main_1_main li dd .strong_4, #main .container .main_1 .main_2_main li dd .strong_4, #main .container .main_1 .main_3_main li dd .strong_4, #main .container .main_1 .main_4_main li dd .strong_4, #main .container .main_1 .main_5_main li dd .strong_4, #main .container .main_2 .main_1_main li dd .strong_4, #main .container .main_2 .main_2_main li dd .strong_4, #main .container .main_2 .main_3_main li dd .strong_4, #main .container .main_2 .main_4_main li dd .strong_4, #main .container .main_2 .main_5_main li dd .strong_4, #main .container .main_3 .main_1_main li dd .strong_4, #main .container .main_3 .main_2_main li dd .strong_4, #main .container .main_3 .main_3_main li dd .strong_4, #main .container .main_3 .main_4_main li dd .strong_4, #main .container .main_3 .main_5_main li dd .strong_4, #main .container .main_4 .main_1_main li dd .strong_4, #main .container .main_4 .main_2_main li dd .strong_4, #main .container .main_4 .main_3_main li dd .strong_4, #main .container .main_4 .main_4_main li dd .strong_4, #main .container .main_4 .main_5_main li dd .strong_4, #main .container .main_5 .main_1_main li dd .strong_4, #main .container .main_5 .main_2_main li dd .strong_4, #main .container .main_5 .main_3_main li dd .strong_4, #main .container .main_5 .main_4_main li dd .strong_4, #main .container .main_5 .main_5_main li dd .strong_4 {
+        color: #d71a5f;
+        font: 800 22px/22px ""; }
+      #main .container .main_1 .main_1_main li dd .shoppingBtn, #main .container .main_1 .main_2_main li dd .shoppingBtn, #main .container .main_1 .main_3_main li dd .shoppingBtn, #main .container .main_1 .main_4_main li dd .shoppingBtn, #main .container .main_1 .main_5_main li dd .shoppingBtn, #main .container .main_2 .main_1_main li dd .shoppingBtn, #main .container .main_2 .main_2_main li dd .shoppingBtn, #main .container .main_2 .main_3_main li dd .shoppingBtn, #main .container .main_2 .main_4_main li dd .shoppingBtn, #main .container .main_2 .main_5_main li dd .shoppingBtn, #main .container .main_3 .main_1_main li dd .shoppingBtn, #main .container .main_3 .main_2_main li dd .shoppingBtn, #main .container .main_3 .main_3_main li dd .shoppingBtn, #main .container .main_3 .main_4_main li dd .shoppingBtn, #main .container .main_3 .main_5_main li dd .shoppingBtn, #main .container .main_4 .main_1_main li dd .shoppingBtn, #main .container .main_4 .main_2_main li dd .shoppingBtn, #main .container .main_4 .main_3_main li dd .shoppingBtn, #main .container .main_4 .main_4_main li dd .shoppingBtn, #main .container .main_4 .main_5_main li dd .shoppingBtn, #main .container .main_5 .main_1_main li dd .shoppingBtn, #main .container .main_5 .main_2_main li dd .shoppingBtn, #main .container .main_5 .main_3_main li dd .shoppingBtn, #main .container .main_5 .main_4_main li dd .shoppingBtn, #main .container .main_5 .main_5_main li dd .shoppingBtn {
+        background-color: #00a69c;
+        color: #fff;
+        font: 800 14px/28px "";
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 3px 15px;
+        letter-spacing: 3px; }
+    #main .container .main_1 .main_1_main li dd:nth-child(4), #main .container .main_1 .main_2_main li dd:nth-child(4), #main .container .main_1 .main_3_main li dd:nth-child(4), #main .container .main_1 .main_4_main li dd:nth-child(4), #main .container .main_1 .main_5_main li dd:nth-child(4), #main .container .main_2 .main_1_main li dd:nth-child(4), #main .container .main_2 .main_2_main li dd:nth-child(4), #main .container .main_2 .main_3_main li dd:nth-child(4), #main .container .main_2 .main_4_main li dd:nth-child(4), #main .container .main_2 .main_5_main li dd:nth-child(4), #main .container .main_3 .main_1_main li dd:nth-child(4), #main .container .main_3 .main_2_main li dd:nth-child(4), #main .container .main_3 .main_3_main li dd:nth-child(4), #main .container .main_3 .main_4_main li dd:nth-child(4), #main .container .main_3 .main_5_main li dd:nth-child(4), #main .container .main_4 .main_1_main li dd:nth-child(4), #main .container .main_4 .main_2_main li dd:nth-child(4), #main .container .main_4 .main_3_main li dd:nth-child(4), #main .container .main_4 .main_4_main li dd:nth-child(4), #main .container .main_4 .main_5_main li dd:nth-child(4), #main .container .main_5 .main_1_main li dd:nth-child(4), #main .container .main_5 .main_2_main li dd:nth-child(4), #main .container .main_5 .main_3_main li dd:nth-child(4), #main .container .main_5 .main_4_main li dd:nth-child(4), #main .container .main_5 .main_5_main li dd:nth-child(4) {
+      margin-top: 30px;
+      color: #666; }
+    #main .container .main_1 .main_1_main li dd:last-child, #main .container .main_1 .main_2_main li dd:last-child, #main .container .main_1 .main_3_main li dd:last-child, #main .container .main_1 .main_4_main li dd:last-child, #main .container .main_1 .main_5_main li dd:last-child, #main .container .main_2 .main_1_main li dd:last-child, #main .container .main_2 .main_2_main li dd:last-child, #main .container .main_2 .main_3_main li dd:last-child, #main .container .main_2 .main_4_main li dd:last-child, #main .container .main_2 .main_5_main li dd:last-child, #main .container .main_3 .main_1_main li dd:last-child, #main .container .main_3 .main_2_main li dd:last-child, #main .container .main_3 .main_3_main li dd:last-child, #main .container .main_3 .main_4_main li dd:last-child, #main .container .main_3 .main_5_main li dd:last-child, #main .container .main_4 .main_1_main li dd:last-child, #main .container .main_4 .main_2_main li dd:last-child, #main .container .main_4 .main_3_main li dd:last-child, #main .container .main_4 .main_4_main li dd:last-child, #main .container .main_4 .main_5_main li dd:last-child, #main .container .main_5 .main_1_main li dd:last-child, #main .container .main_5 .main_2_main li dd:last-child, #main .container .main_5 .main_3_main li dd:last-child, #main .container .main_5 .main_4_main li dd:last-child, #main .container .main_5 .main_5_main li dd:last-child {
+      text-align: right; }
+#main .container .main_1 .main_2_main li:hover img, #main .container .main_2 .main_2_main li:hover img, #main .container .main_3 .main_2_main li:hover img, #main .container .main_4 .main_2_main li:hover img, #main .container .main_5 .main_2_main li:hover img {
+  transform: scale(1.1); }
+#main .container .main_1 .main_3_main li:hover .halfDiscount, #main .container .main_2 .main_3_main li:hover .halfDiscount, #main .container .main_3 .main_3_main li:hover .halfDiscount, #main .container .main_4 .main_3_main li:hover .halfDiscount, #main .container .main_5 .main_3_main li:hover .halfDiscount {
+  display: block; }
+#main .container .main_1 .main_4_main li, #main .container .main_2 .main_4_main li, #main .container .main_3 .main_4_main li, #main .container .main_4 .main_4_main li, #main .container .main_5 .main_4_main li {
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  height: 476px; }
+  #main .container .main_1 .main_4_main li .wid, #main .container .main_2 .main_4_main li .wid, #main .container .main_3 .main_4_main li .wid, #main .container .main_4 .main_4_main li .wid, #main .container .main_5 .main_4_main li .wid {
+    transition: .5s;
+    position: absolute;
+    height: 0;
+    width: 280px;
+    border: 1px solid #000000;
+    display: block;
+    z-index: 555; }
+  #main .container .main_1 .main_4_main li .hei, #main .container .main_2 .main_4_main li .hei, #main .container .main_3 .main_4_main li .hei, #main .container .main_4 .main_4_main li .hei, #main .container .main_5 .main_4_main li .hei {
+    transition: .5s;
+    top: 0;
+    position: absolute;
+    width: 0px;
+    height: 476px;
+    border: 1px solid #000000;
+    display: block;
+    z-index: 555; }
+  #main .container .main_1 .main_4_main li .h1, #main .container .main_2 .main_4_main li .h1, #main .container .main_3 .main_4_main li .h1, #main .container .main_4 .main_4_main li .h1, #main .container .main_5 .main_4_main li .h1 {
+    top: -500px;
+    left: 0px; }
+  #main .container .main_1 .main_4_main li .h2, #main .container .main_2 .main_4_main li .h2, #main .container .main_3 .main_4_main li .h2, #main .container .main_4 .main_4_main li .h2, #main .container .main_5 .main_4_main li .h2 {
+    top: 500px;
+    right: 0; }
+  #main .container .main_1 .main_4_main li .w1, #main .container .main_2 .main_4_main li .w1, #main .container .main_3 .main_4_main li .w1, #main .container .main_4 .main_4_main li .w1, #main .container .main_5 .main_4_main li .w1 {
+    left: -290px;
+    top: 0px; }
+  #main .container .main_1 .main_4_main li .w2, #main .container .main_2 .main_4_main li .w2, #main .container .main_3 .main_4_main li .w2, #main .container .main_4 .main_4_main li .w2, #main .container .main_5 .main_4_main li .w2 {
+    left: 290px;
+    bottom: 0px; }
+#main .container .main_1 .main_4_main li:hover .wid, #main .container .main_2 .main_4_main li:hover .wid, #main .container .main_3 .main_4_main li:hover .wid, #main .container .main_4 .main_4_main li:hover .wid, #main .container .main_5 .main_4_main li:hover .wid {
+  left: 0px; }
+#main .container .main_1 .main_4_main li:hover .hei, #main .container .main_2 .main_4_main li:hover .hei, #main .container .main_3 .main_4_main li:hover .hei, #main .container .main_4 .main_4_main li:hover .hei, #main .container .main_5 .main_4_main li:hover .hei {
+  top: -20px; }
+#main .container .main_1 .main_5_main .colorGray, #main .container .main_2 .main_5_main .colorGray, #main .container .main_3 .main_5_main .colorGray, #main .container .main_4 .main_5_main .colorGray, #main .container .main_5 .main_5_main .colorGray {
+  transition: all .5s ease;
+  opacity: 0.6; }
+#main .container .main_1 .main_5_main li:hover .colorGray, #main .container .main_2 .main_5_main li:hover .colorGray, #main .container .main_3 .main_5_main li:hover .colorGray, #main .container .main_4 .main_5_main li:hover .colorGray, #main .container .main_5 .main_5_main li:hover .colorGray {
+  opacity: 1; }
+
+/*# sourceMappingURL=index.css.map */

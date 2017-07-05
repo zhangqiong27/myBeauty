@@ -1,0 +1,52 @@
+001  圣罗兰Yves Saint Laurent
+	黑色鸦片花香香水喷雾
+	90ml/3oz
+	693.00
+	794.50
+	img/newGoods/newGoods4.jpg
+002   雅诗兰黛Estte Lauder
+	黑色慕斯香水喷雾
+	100ml/3.5oz
+	602.00
+	829.00
+003    回忆Reminniscenece
+	广藿香玫瑰香水喷雾
+	100ml/3.4oz
+	422.50
+	820.00
+004   卡尔文克莱Calvin Klein
+	永恒夏日淡香水喷雾（2017版）
+	100ml/3.4oz
+	359.00
+	518.00
+	img/newGoods/newGoods10.jpg
+005   马克雅克布Marc Jacobs
+	雏菊梦之吻淡香水喷雾
+	50ml/1.7oz
+	419.50
+	539.00
+006    巴宝莉Burberry
+	巴宝莉先生香水喷雾
+	100ml/3.4oz
+	544.00
+	656.50
+007   思妍丽Decleor
+	Orexcellence Energy Concentrate Youth Cream
+	50ml/1.7oz
+	760.00
+	1001.50
+008    圣罗兰Payot
+	天之骄子摇滚淡香水喷雾
+	100ml/3.4oz
+	553.5
+	635.00
+009   马克雅克布Marc Jacobs
+	雏菊之吻淡香水喷雾
+	50ml/1.7oz
+	419.50
+	539.00
+101   拉尔夫劳伦Ralph Lauren
+	蓝色马球香水喷雾
+	125ml/4.2oz
+	504.50
+	587.50

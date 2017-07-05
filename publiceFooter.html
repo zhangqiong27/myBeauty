@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/publiceFooter.css" />
+	</head>
+	<body>
+
+		<footer id="publiceFooter">
+			<div class="footer_top">
+				<div class="container">
+					<dl>
+						<dt><strong>关注我们</strong></dt>
+						<dd><input type="text" placeholder="请输入您的邮箱号码"/><span>注册</span></dd>
+						<dd class="weixinParent">
+							<img class="weixin" src="img/index/weixin.png" />
+							<img class="weixinImg" src="img/index/QRCodeCN.png"/>
+						</dd>
+					</dl>
+					<ul class="footer_top_center">
+						<li><img src="img/index/footer_heard.png"/></li>
+						<li><p>来自<br>800<br>多个国家<br>3000多个品牌</p></li>
+					</ul>
+					<ul class="footer_top_right">
+						<li><img src="img/index/footer_mail.png"/>i</li>
+						<li><strong>免费付运至全球</strong></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<div class="container">
+					<div class="footer_bottom_top">
+						<i>
+							<a>付运&amp;税率</a>
+							<span>|</span>
+							<a>退款协议</a>
+							<span>|</span>
+							<a>常见问题</a>
+							<span>|</span>
+							<a>联系我们</a>
+						</i>
+						<b><img src="img/index/global.png"/>更改地区/语言</b>
+					</div>
+					
+					<div class="footer_bottom_center">
+						<div class="footer_bottom_center_1">
+							<h5>付款方式：</h5>
+							<ul>
+								<li ><img class="colorLight" src="img/index/Alipay_1.png"/></li>
+								<li ><img class="colorLight" src="img/index/Alipay_2.jpg"/></li>
+								<li ><img class="colorLight" src="img/index/Alipay_3.jpg"/></li>
+								<li ><img class="colorLight" src="img/index/Alipay_4.png"/></li>
+								<li ><img class="colorLight" src="img/index/Alipay_5.png"/></li>
+								<li ><img class="colorLight" src="img/index/Alipay_6.png"/></li>
+								<li ><img class="colorLight"src="img/index/Alipay_7.png"/></li>
+							</ul>
+						</div>
+						<ul class="footer_bottom_center_2">
+							<li>我的账户</li>
+							<li>我的账户</li>
+							<li>我的账户</li>
+							<li>我的账户</li>
+						</ul>
+						<ul class="footer_bottom_center_3">
+							<li>草莓网简介</li>
+							<li>关于我们</li>
+							<li>我的账户</li>
+							<li>我的账户</li>
+							<li>我的账户</li>
+							<li>合作伙伴</li>
+						</ul>
+						<div class="footer_bottom_center_4">
+							<h5>下载：</h5>
+							<img src="img/index/download.png"/>
+						</div>
+						<div class="footer_bottom_center_5">
+							<h5>下载：</h5>
+							<img class="footer_bottom_center_5Img" src="img/index/customs.png"/>
+							<img class="footer_bottom_center_5Img_meng" src="img/index/footer_bottom_center_5Img.gif" />
+						</div>
+					</div>
+					
+					<div class="footer_bottom_bottom">
+						<div class="container">
+							<img src="img/index/footer_bottom.png" />
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</footer>
+		<div id="topBtn">TOP</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script>
+	$(function(){
+		//置顶按钮事件绑定
+		var offset = 300;
+		//hide or show the "back to top" link
+		$(window).scroll(function(){
+			if( $(this).scrollTop() > offset  ) { 
+				$("#topBtn").fadeIn();
+			}else{
+				$("#topBtn").fadeOut();
+			}
+		});
+	
+		//smooth scroll to top
+		$("#topBtn").on('click', function(){
+			$('body,html').animate({scrollTop: 0 });
+		});
+	});
+</script>
