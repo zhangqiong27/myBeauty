@@ -12,7 +12,8 @@ gulp.task("copy-index",function(){
 gulp.task("copy-images",function(){
 	gulp.src("img/index/*").pipe(gulp.dest("D:/phpStudy/WWW/Beauty/img/index"));
 	gulp.src("img/newGoods/*").pipe(gulp.dest("D:/phpStudy/WWW/Beauty/img/newGoods"));
-	gulp.src("img/goodsInf/*").pipe(gulp.dest("D:/phpStudy/WWW/Beauty/img//goodsInf"));
+	gulp.src("img/goodsInf/*").pipe(gulp.dest("D:/phpStudy/WWW/Beauty/img/goodsInf"));
+	gulp.src("img/chart/*").pipe(gulp.dest("D:/phpStudy/WWW/Beauty/img/chart"));
 	
 });
 

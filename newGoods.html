@@ -8,6 +8,8 @@
      	<link rel="stylesheet" href="css/bootstrap.css"/>
      	<link rel="stylesheet" type="text/css" href="css/publiceHeader.css"/>
      	<link rel="stylesheet" href="css/newGoods.css" />
+     	<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
 	</head>
 	
 	<body>
@@ -45,7 +47,7 @@
 				</div>
 				<div class="main_right">
 					<ul class="main_right_title_1">
-						<li>共300件新品登录</li>
+						<li>共10件新品登录</li>
 						<li>国际参考价格标准CNY</li>
 					</ul>
 					<ul class="main_right_title_2">
@@ -61,7 +63,7 @@
 						</li>
 					</ul>
 					<ul class="main_right_main" style="padding:30px 0;">
-						
+						<li><img id="loadImg" src="img/chart/sbnloading.gif" style="margin:20px auto;display:block;"/></li>
 					</ul>
 					
 				</div>
@@ -73,20 +75,25 @@
 		<div id="publiceFooter"></div>
 	</body>
 </html>
-<script src="https://code.jquery.com/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery.js" ></script>
 <script type="text/javascript" src="js/cookieTools.js" ></script>
 <script>
 	$(function(){
 		$("#publiceHeader").load("publiceHeader.html");
 		$("#publiceFooter").load("publiceFooter.html");
+		$("#loadImg").show();//页面一打开先显示loading图片
+//		alert("1")
 		$(".main_right_title_2 li:nth-child(2)").hover(function(){
 			$(".hotBtnContent").css({display:"block"}
 			);
 		},function(){
 			$(".hotBtnContent").css("display","none");
 		});
+		//当ajax请求结束后，移除loading图片所在元素
+		 $("#loadImg").ajaxStop(function(){
+//		 		alert("2")
+		   $(this).parent().remove();
+		 });
 		
 		//获取产品列表信息
 		$.get("php/getGoodsList.php",function(data){
@@ -107,7 +114,7 @@
 		
 		$(".main_right_main").delegate("li","click",function(){
 			let currGoodsId=$(this).attr("ord");
-			saveCookie(currGoodsId,currGoodsId,1);//保存点击商品的产品ID，进入产品详情页面，显示对应商品
+			saveCookie("currGoodsId",currGoodsId,1);//保存点击商品的产品ID，进入产品详情页面，显示对应商品
 			window.location.href="goodsInf.html";
 		})
 	});

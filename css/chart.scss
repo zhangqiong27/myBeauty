@@ -1,0 +1,27 @@
+@charset "utf-8";
+.container{
+    width:1170px;
+    margin:0 auto;
+    padding:0 15px;
+}
+
+body{
+    padding-top:190px;
+}
+
+#main{
+    .main_1{
+        display: flex;
+        justify-content: center; 
+        padding:100px 0;
+        img{
+           display: block;
+           width:200px;
+           height:200px;
+        }
+        h3{
+            font:800 30px/100px "";
+        }
+    }
+    
+}

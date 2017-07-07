@@ -166,14 +166,16 @@ header {
         justify-content: space-between; }
         #nav #menuFirst li #nav-menu2 .nav-menu2_main a {
           background-color: none;
-          color: #5c3870; }
+          color: #5c3870; 
+          }
         #nav #menuFirst li #nav-menu2 .nav-menu2_main dd {
           font-size: 14px;
           font-weight: 700; }
         #nav #menuFirst li #nav-menu2 .nav-menu2_main dt {
           font: 12px/30px ""; }
           #nav #menuFirst li #nav-menu2 .nav-menu2_main dt a {
-            color: #666; }
+            color: #666; 
+            }
         #nav #menuFirst li #nav-menu2 .nav-menu2_main .nav-menu2_main_right {
           background-color: #9d317d;
           padding: 0 20px;
@@ -181,7 +183,8 @@ header {
           #nav #menuFirst li #nav-menu2 .nav-menu2_main .nav-menu2_main_right a {
             color: #fff;
             font: 14px;
-            background-color: #9d317d; }
+            background-color: #9d317d;
+            }
           #nav #menuFirst li #nav-menu2 .nav-menu2_main .nav-menu2_main_right img {
             width: 145px;
             margin: 0 auto; }

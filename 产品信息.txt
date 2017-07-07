@@ -3,50 +3,88 @@
 	90ml/3oz
 	693.00
 	794.50
-	img/newGoods/newGoods4.jpg
+	img/newGoods/newGoods1.jpg
+	img/newGoods/001.1.jpg
+	img/newGoods/001.2.jpg
+	img/newGoods/001.3.jpg
 002   雅诗兰黛Estte Lauder
 	黑色慕斯香水喷雾
 	100ml/3.5oz
 	602.00
 	829.00
+	img/newGoods/newGoods2.jpg
+	img/newGoods/002.1.jpg
+	img/newGoods/002.2.jpg
+	img/newGoods/002.3.jpg
 003    回忆Reminniscenece
 	广藿香玫瑰香水喷雾
 	100ml/3.4oz
 	422.50
 	820.00
+	img/newGoods/newGoods3.jpg
+	img/newGoods/003.1.jpg
+	img/newGoods/003.2.jpg
+	img/newGoods/003.3.jpg
 004   卡尔文克莱Calvin Klein
 	永恒夏日淡香水喷雾（2017版）
 	100ml/3.4oz
 	359.00
 	518.00
-	img/newGoods/newGoods10.jpg
+	img/newGoods/newGoods4.jpg
+	img/newGoods/004.1.jpg
+	img/newGoods/004.2.jpg
+	img/newGoods/004.3.jpg
 005   马克雅克布Marc Jacobs
 	雏菊梦之吻淡香水喷雾
 	50ml/1.7oz
 	419.50
 	539.00
+	img/newGoods/newGoods5.jpg
+	img/newGoods/005.1.jpg
+	img/newGoods/005.2.jpg
+	img/newGoods/005.3.jpg
 006    巴宝莉Burberry
 	巴宝莉先生香水喷雾
 	100ml/3.4oz
 	544.00
 	656.50
+	img/newGoods/newGoods6.jpg
+	img/newGoods/006.1.jpg
+	img/newGoods/006.2.jpg
+	img/newGoods/006.3.jpg
 007   思妍丽Decleor
 	Orexcellence Energy Concentrate Youth Cream
 	50ml/1.7oz
 	760.00
 	1001.50
+	img/newGoods/newGoods7.jpg
+	img/newGoods/007.1.jpg
+	img/newGoods/007.2.jpg
+	img/newGoods/007.3.jpg
 008    圣罗兰Payot
 	天之骄子摇滚淡香水喷雾
 	100ml/3.4oz
 	553.5
 	635.00
+	img/newGoods/newGoods8.jpg
+	img/newGoods/008.1.jpg
+	img/newGoods/008.2.jpg
+	img/newGoods/008.3.jpg
 009   马克雅克布Marc Jacobs
 	雏菊之吻淡香水喷雾
 	50ml/1.7oz
 	419.50
 	539.00
-101   拉尔夫劳伦Ralph Lauren
+	img/newGoods/newGoods9.jpg
+	img/newGoods/009.1.jpg
+	img/newGoods/009.2.jpg
+	img/newGoods/009.3.jpg
+010   拉尔夫劳伦Ralph Lauren
 	蓝色马球香水喷雾
 	125ml/4.2oz
 	504.50
 	587.50
+	img/newGoods/newGoods10.jpg
+	img/newGoods/010.1.jpg
+	img/newGoods/010.2.jpg
+	img/newGoods/010.3.jpg

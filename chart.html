@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Beauty网页新品上线页面</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/public.css" />
+     	<link rel="stylesheet" href="css/bootstrap.css"/>
+     	<link rel="stylesheet" type="text/css" href="css/publiceHeader.css"/>
+     	<link rel="stylesheet" href="css/chart.css" />
+     	<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</head>
+	
+	<body>
+		<!--引入公共头文件-->
+		<div id="publiceHeader"></div>
+		<section id="main">
+			<div class="main_1">
+				<img src="img/chart/chart1.png"/>
+				<h3>好多商品都在减，快去选购吧!</h3>
+			</div>
+			<div class="main_2">
+				
+			</div>
+		</section>
+
+		<!--引入公共底部文件-->
+		<div id="publiceFooter"></div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/cookieTools.js" ></script>
+<script>
+	$(function(){
+		$("#publiceHeader").load("publiceHeader.html");
+		$("#publiceFooter").load("publiceFooter.html");
+	});
+</script>

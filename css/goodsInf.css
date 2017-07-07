@@ -11,6 +11,23 @@ body {
   #main_top .container img {
     width: 100%; }
 
+#main .container .main_left .main_left_top {
+  width: 350px;
+  height: 350px;
+  border: 1px solid #999; }
+  #main .container .main_left .main_left_top img {
+    width: 100%; }
+#main .container .main_left .main_left_bottom {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 55px;
+  padding-left: 24px; }
+  #main .container .main_left .main_left_bottom li {
+    border: 1px solid #999;
+    margin: 0 10px; }
+    #main .container .main_left .main_left_bottom li img {
+      width: 75px;
+      height: 75px; }
 #main .container .main_right .main_right_top li {
   margin: 10px 0; }
   #main .container .main_right .main_right_top li h3 {
