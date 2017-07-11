@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,UAAU;EACN,KAAK,EAAC,MAAM;EACZ,MAAM,EAAC,MAAM;EACb,OAAO,EAAC,MAAM;;AAGlB,IAAI;EACA,WAAW,EAAC,KAAK",
+"sources": ["pay.scss"],
+"names": [],
+"file": "pay.css"
+}

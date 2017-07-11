@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Beauty网页新品上线页面</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/public.css" />
+     	<link rel="stylesheet" href="css/bootstrap.css"/>
+     	<link rel="stylesheet" type="text/css" href="css/publiceHeader.css"/>
+     	<link rel="stylesheet" href="css/pay.css" />
+     	<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</head>
+	
+	<body>
+		<!--引入公共头文件-->
+		<div id="publiceHeader"></div>
+		<section id="main">
+			<div class="container picture" >
+				
+			</div>
+			
+		</section>
+		
+		<!--引入公共底部文件-->
+		<div id="publiceFooter"></div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script type="text/javascript" src="js/cookieTools.js" ></script>
+<script>
+	$(function(){
+		$("#publiceHeader").load("publiceHeader.html");
+		$("#publiceFooter").load("publiceFooter.html");
+		
+		//通过hightChart插入折线图效果
+	   var title = {
+	      text: '2017年度消费账单' ,
+	      style:{color: '#962f7f',font:"700 18px/20px ''" ,letterSpacing: '2px'}
+	   };
+	   var subtitle = {
+	      text: '来源：您2017年度买买买流水账单',
+	      style:{color: '#962f7f',font:" 12px/20px ''" ,letterSpacing: '1px' }
+	   };
+	   var xAxis = {
+//	      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+//	         'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+		categories: ['1月', '2月', '3月', '4月', '5月', '6月',
+	         '7月', '8月', '9月', '10月', '11月', '12月'],
+//		labels: {        
+//              rotation: -45   //45度倾斜   
+//colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', 
+//'#FFF263', '#6AF9C4'] fe7202橘色 c62f7a枚红色C7254E  008E8E墨绿色 F6BD0F黄色
+//          }
+	   };
+	   var yAxis = {
+	      title: {
+	         text: 'consumption ( /元 )'
+	      },
+	      plotLines: [{
+	         value: 0,
+	         width: 2,
+	         color: '#521b76'
+	      }]
+	   };   
+	
+	   var tooltip = {
+	      valueSuffix: '元'
+	   }
+	
+	   var legend = {
+	      layout: 'vertical',
+	      align: 'right',
+	      verticalAlign: 'middle',
+	      borderWidth: 0
+	   };
+	
+	   var series =  [
+	      {
+	         name: '彩妆产品',
+	         data: [480, 690, 95, 145, 182, 215, 452,
+	            265, 233, 183, 139, 96],
+	          color:'#c62f7a'
+	      }, 
+	      {
+	         name: '皮肤基础护理产品',
+	         data: [100, 800, 57, 113, 170, 220, 548,
+	            241, 201, 141, 286, 125],
+	         color:'#ffd400'  
+	      },
+	      {
+	         name: '美发护理产品',
+	         data: [139, 142, 57, 85, 119, 152, 370, 
+	            266, 142, 103, 600, 480],
+	        color:'#0e69b2' 
+	      }
+	   ];
+	  	
+	   var json = {};
+	
+	   json.title = title;
+	   json.subtitle = subtitle;
+	   json.xAxis = xAxis;
+	   json.yAxis = yAxis;
+	   json.tooltip = tooltip;
+	   json.legend = legend;
+	   json.series = series;
+	
+	   $('.picture').highcharts(json);	
+	   $('.highcharts-credits').css("display","none");
+	   
+	   
+	   
+	   
+	})
+</script>

@@ -1,6 +1,3 @@
-function $(str){
-	return document.getElementById(str);
-}
 
 function getStyle(obj,attr){//获取css样式
     if(obj.currentStyle){//ie
@@ -55,15 +52,15 @@ function move(obj,json,fn){  	// 属性值可以不加px 透明度是用0-1之�
 }
 
 	
-	var boxBig = $("boxBig");
-	var boxSmall = $("boxSmall");
+	var boxBig = document.getElementById("boxBig");
+	var boxSmall = document.getElementById("boxSmall");
 	var iWidth =parseInt(getStyle(boxBig,"width"));
 	//var iWidth=1000;
-	var cirBtn = $("cirBtn");
+	var cirBtn = document.getElementById("cirBtn");
 	var oLi = cirBtn.getElementsByTagName("li");
 	var oLen = oLi.length;
-	var onext = $("next");
-	var oprev = $("prev");
+	var onext = document.getElementById("next");
+	var oprev = document.getElementById("prev");
 	var k = 0;  
 	var timer = null;
 	boxSmall.innerHTML+=boxSmall.innerHTML;

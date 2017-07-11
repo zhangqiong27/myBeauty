@@ -208,4 +208,34 @@ body {
     #otherInf .container #boxBig #cirBtn li.active {
       background-color: #662d91; }
 
+#chartRight {
+  height: 100%;
+  width: 32px;
+  background-color: #fff;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  text-align: center; }
+  #chartRight .chartRight_main {
+    margin-top: 400px; }
+    #chartRight .chartRight_main #goodsCountMsg {
+      margin-left: 10px;
+      background-color: #600181;
+      width: 16px;
+      height: 20px;
+      border-radius: 50%;
+      display: block;
+      font: 800 12px/20px "";
+      color: #fff; }
+    #chartRight .chartRight_main p {
+      width: 32px;
+      height: 32px; }
+      #chartRight .chartRight_main p img {
+        width: 100%;
+        height: 100%; }
+    #chartRight .chartRight_main strong {
+      font: 22px/34px "";
+      color: #623381;
+      padding-left: 10px; }
+
 /*# sourceMappingURL=goodsInf.css.map */

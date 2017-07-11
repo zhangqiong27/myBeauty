@@ -8,14 +8,6 @@
      	<link rel="stylesheet" href="css/bootstrap.css"/>
      	<link rel="stylesheet" type="text/css" href="css/publiceHeader.css"/>
      	<link rel="stylesheet" href="css/index.css" />
-     	<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="js/bootstrap.js"></script>
-     	<!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
-	      <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
-	      <!--[if lt IE 9]>
-	         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	      <![endif]-->
 	</head>
 	
 	<body>
@@ -76,7 +68,7 @@
 				<div class="main_1">
 					<div class="main_1_title">
 						<hr class="xian">
-						<p>草莓网近日秒杀<br>仅剩：<span>16h:35m:12s</span></p>
+						<p>草莓网近日秒杀<br>仅剩：<span id="countDown"></span></p>
 					</div>
 					<ul class="main_1_main">
 						<li>
@@ -396,23 +388,9 @@
 		<div id="publiceFooter"></div>
 	</body>
 </html>
-<script type="text/javascript" src="js/jquery.js" ></script>
-<script type="text/javascript" src="js/cookieTools.js" ></script>
-<script>
-	$(function(){
-		$("#publiceHeader").load("publiceHeader.html");
-		$("#publiceFooter").load("publiceFooter.html");
-		$(".main_1_main li").hover(function(){
-			$(this).css({boxShadow:" 2px 2px 0px #7F96A9",border:"1px solid #7F96A9",borderRadius:"5px"});
-		},function(){
-			$(this).css({boxShadow:"none",border:"1px solid #fff"});
-		});
-		
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
 
-		$(".main_3_main li").hover(function(){
-			$(this).find("img").css({transform:"translateX(15px)"});
-		},function(){
-			$(this).find("img").css({transform:"translateX(0px)"});
-		});
-	});
-</script>
+<script type="text/javascript" src="js/require.js" ></script>
+<script type="text/javascript" src="js/indexMain.js" ></script>
+

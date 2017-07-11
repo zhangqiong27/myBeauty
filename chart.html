@@ -8,32 +8,95 @@
      	<link rel="stylesheet" href="css/bootstrap.css"/>
      	<link rel="stylesheet" type="text/css" href="css/publiceHeader.css"/>
      	<link rel="stylesheet" href="css/chart.css" />
-     	<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="js/bootstrap.js"></script>
+     	<!--<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>-->
 	</head>
 	
 	<body>
 		<!--引入公共头文件-->
 		<div id="publiceHeader"></div>
 		<section id="main">
-			<div class="main_1">
-				<img src="img/chart/chart1.png"/>
-				<h3>好多商品都在减，快去选购吧!</h3>
-			</div>
-			<div class="main_2">
+			<div class="container">
+				<div class="main_left">
+					<div class="main_left_1">
+						<img src="img/chart/chart1.png"/>
+						<h3>购物车空空！好多商品都在减，快去选购吧!</h3>
+					</div>
+					<div class="main_left_2">
+						<h3>购物车</h3>
+		       			<table class="chartTable">
+							<thead>
+								<tr>
+									<th >
+										<input type="checkbox" class="chkbox" />
+			                    		<span>全选</span>
+									</th>
+									<th >商品信息</th>
+									<th >单价（/元）</th>
+									<th >数量</th>
+									<th >小计（/元）</th>
+									<th >操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								
+							</tbody>
+						</table>
+		       			
+		       			<div class="main_left_2_bottom">
+		       				<h4>总计：<span></span>元</h4>
+		       			</div>
+					</div>
+				</div>
 				
-			</div>
+				<div class="main_right">
+					<strong>付款</strong>
+					<p>&radic;免邮费</p>
+					<h4>总价</h4>
+					<h5>￥0.00</h5>
+					<s>付款</s>
+					<b>使用支付宝账户快捷支付</b>
+					<ul>
+						<li><a href="#"><img src="img/chart/1.jpg"/></a></li>
+						<li><a href="#"><img src="img/chart/2.png"/></a></li>
+						<li><a href="#"><img src="img/chart/3.jpg"/></a></li>
+						<li><a href="#"><img src="img/chart/4.png"/></a></li>
+						<li><a href="#"><img src="img/chart/5.png"/></a></li>
+						<li><a href="#"><img src="img/chart/7.png"/></a></li>
+						<li><a href="#"><img src="img/chart/8.png"/></a></li>
+						<li><a href="#"><img src="img/chart/9.png"/></a></li>
+						<li><a href="#"><img src="img/chart/10.png"/></a></li>
+						<li><a href="#"><img src="img/chart/11.png"/></a></li>
+						<li><a href="#"><img src="img/chart/12.png"/></a></li>
+						<li><a href="#"><img src="img/chart/13.png"/></a></li>
+					</ul>
+				</div>
+		</div>
+			
 		</section>
 
 		<!--引入公共底部文件-->
 		<div id="publiceFooter"></div>
 	</body>
 </html>
-<script type="text/javascript" src="js/jquery.js" ></script>
-<script type="text/javascript" src="js/cookieTools.js" ></script>
-<script>
-	$(function(){
-		$("#publiceHeader").load("publiceHeader.html");
-		$("#publiceFooter").load("publiceFooter.html");
-	});
-</script>
+<script type="text/javascript" src="js/require.js" ></script>
+<script type="text/javascript" src="js/chartMain.js" ></script>
+
+<!--<tr>
+	<td >
+		<input type='checkbox' class='chkbox'/>
+		<img src='img/goodsInf/1.1.jpg' />
+	</td>
+	<td>
+		<span>产品简介内容</span>
+	</td>
+	<td class='price'>222.00</td>
+	<td >
+		<button class='downBtn'>-</button>
+		<b class='count'>10</b>
+		<button class='upBtn'>+</button>
+	</td>
+	<td class='totle'>580.00</td>
+	<td ><button class='delBtn'>删除</button>
+	</td>
+</tr>-->

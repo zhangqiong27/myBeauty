@@ -10,18 +10,183 @@ body{
 }
 
 #main{
-    .main_1{
+    margin:40px 0;
+    .container{
         display: flex;
-        justify-content: center; 
-        padding:100px 0;
-        img{
-           display: block;
-           width:200px;
-           height:200px;
+        justify-content: space-between;
+        .main_left{
+            width:880px;
+           .main_left_1{
+               display: flex;
+               justify-content:flex-start;
+               width:100%;
+                text-align: left; 
+                padding:100px 0;
+                img{
+                   display: block;
+                   width:100px;
+                   height:100px;
+                }
+                h3{
+                    font:800 20px/100px "";
+                    letter-spacing: 5px;
+                }
+            } 
+            .main_left_2{
+                 width:880px;
+                 h3{
+                    padding-left:15px;
+                    font:800 20px/40px ""; 
+                    letter-spacing: 5px;
+                 }
+                 .chartTable{
+                     width:100%;
+                     thead{
+                         color:#662d91;
+                         font:700 16px/20px "";
+                         tr{
+                             background-color: #dcd5e0;
+                             height:40px;
+                             width:100%;
+                             padding:10px 0;
+                             th{
+                                 text-align: center; 
+                                input{
+                                    width:15px;
+                                    height:15px;
+                                }
+                             }
+                             th:first-child{
+                                 text-align: left;
+                                 padding-left:33px;      
+                             } 
+                         }
+                     }
+                     
+                     tbody{
+                         color:#000;
+                         font:14px/20px "";
+                        
+                         tr{
+                             height:110px;
+                             border-bottom:3px solid #dcd5e0;
+                            td{
+                                 text-align: center; 
+                                 input{
+                                    width:15px;
+                                    height:15px;
+                                }
+                             }
+                             td:nth-child(1){
+                                 img{
+                                     width:70px;
+                                     height:70px;
+                                 }
+                             } 
+                             
+                             td:nth-child(4){
+                                 button{
+                                    font-size:10px;
+                                    border:1px solid #000;
+                                    border-radius: 2px;
+                                    width: 15px;
+                                    margin: 0 10px;
+                                    padding: 0px 2px;
+                                    background-color: #dcd5e0;
+                                 }
+                             }
+                             td:nth-child(6){
+                                 font:12px/20px "";
+                                 button{
+                                    border:1px solid #000;
+                                    border-radius: 2px;
+                                    margin: 0 10px;
+                                    padding: 0px 5px;
+                                    background-color: #dcd5e0;
+                                 }
+                             }
+                         }
+                     }
+                     
+                 }
+                 .main_left_2_bottom{
+                     width:100%;
+                     height:40px;
+                     background-color: #dcd5e0;
+                     text-align: end;
+                     padding-right:30px;
+                     h4{
+                        font:700 20px/40px ""; 
+                        color:#662d91;
+                        letter-spacing: 2px;
+                        span{
+                            letter-spacing: 0px;
+                        }
+                     }
+                 }
+                
+            }
         }
-        h3{
-            font:800 30px/100px "";
+        
+        .main_right{
+            background-color: #dcd5e0;
+            text-align: center;
+            width:230px;
+            padding:20px 10px;
+            strong{
+                margin-left: -138px;
+                padding-left:30px;
+                background: url("../img/chart/suo.png") no-repeat -2px 0px;
+                font:700 20px/40px "";
+                color:#4a4949;        
+            }
+            p{
+                text-align: left;
+                color:#662c91;
+                font:700 20px/40px "";
+            }
+            h4{
+                color:#2c2c2c;
+                font:700 30px/60px "";
+            }
+            h5{
+                color:#662c91;
+                font:700 30px/60px "";
+            }
+            s{
+                display:block;
+                margin:0 auto;
+                width:76px;
+                height:30px;
+                background-color: #000;
+                color:#fff;
+                text-align: center;
+                font:700 14px/30px "";
+                letter-spacing: 5px;
+            }
+            b{
+                color:#662c91;
+                font:700 12px/40px "";
+            }
+            ul{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li{
+                    width:50px;
+                    height:30px;
+                    margin:10px 5px;
+                    a{
+                        img{
+                          width:50px;
+                          height:30px;  
+                        }
+                    }
+                }
+            }
         }
+        
     }
+    
     
 }
